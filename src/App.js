@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import CardList from './components/CardList'
 import SearchBox from './components/SearchBox'
 import Scroll from './components/Scroll.js'
-// import robots from './robots'
 import './styles/App.css'
 
 
@@ -21,7 +20,6 @@ const App = () => {
 
   const handleSearchChange = (event) => {
     setSearch(event.target.value)
-    console.log(event.target.value)
   }
 
   if (!robots.length) {
